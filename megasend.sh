@@ -1,4 +1,4 @@
 
 cd /media/hd-ext/
-tar -zcvf arquivos.tar.gz mega/ 
-megaput arquivos.tar.gz
+tar -zcvf backup%H-%M`.tar.gz mega/ 
+megaput backup.tar.gz
