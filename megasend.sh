@@ -1,9 +1,9 @@
 
 exists() { [ ! -z `which "$1"` ]; }
-if exists brew; then
-  echo 'Homebrew found!'
+if exists megatools; then
+  echo 'megatools found!'
 fi
 
 if ! exists brew; then
-  echo 'Homebrew not found!'
+  echo 'megatools not found!'
 fi
