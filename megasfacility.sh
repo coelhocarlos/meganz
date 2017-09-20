@@ -1,6 +1,6 @@
 ############################
-cd /var/
-tar -zcvf bkp-`date +%d-%m-%Y--%H-%M`.tar.gz www/ 
+cd /home/
+tar -zcvf bkp-`date +%d-%m-%Y--%H-%M`.tar.gz uniloc/ 
 megaput *.tar.gz
 rm *.tar.gz
 
