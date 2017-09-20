@@ -4,9 +4,9 @@ mega - send
 
 HOW TO USE 
 
-#------------------------------------------------------------------
+#-------------------------
 INSTALL MEGATools
-#--------------------------------------------------------------------
+#---------------------------
 apt-get -y install build-essential libglib2.0-dev libssl-dev \ libcurl4-openssl-dev libgirepository1.0-dev
 
 mkdir downloads 
@@ -22,7 +22,7 @@ nano .megarc
 #Password = 
 #-----------------------------------
 
-#-----------------------HOW TO USE -------------------------------------------------------------
+#-----------------------HOW TO USE -------------
 #megareg –  Registrar-se e verificar uma conta nova mega.
 #megadf –  Mostre seu espaço de armazenamento em nuvem uso / quota.
 #megals –  Listar todos os arquivos remotos.
