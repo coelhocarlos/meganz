@@ -7,6 +7,7 @@ HOW TO USE
 #-------------------------
 INSTALL MEGATools
 #---------------------------
+
 apt-get -y install build-essential libglib2.0-dev libssl-dev \ libcurl4-openssl-dev libgirepository1.0-dev
 
 mkdir downloads 
