@@ -1,10 +1,9 @@
 
+exists() { [ ! -z `which "$1"` ]; }
+if exists brew; then
+  echo 'Homebrew found!'
+fi
 
-PROGRAMA=$(dpkg --get-selection | grep megatools | wc -l)
-echo $PROGRAMA
-if [ $PROGRAMA -eq 0 ]
-then
-sudo apt-get install ---
-else
-echo "Já está instalado"
-
+if ! exists brew; then
+  echo 'Homebrew not found!'
+fi
