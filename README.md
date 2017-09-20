@@ -13,17 +13,25 @@ apt-get -y install build-essential libglib2.0-dev libssl-dev \ libcurl4-openssl-
 mkdir downloads 
 cd downloads 
 wget http://ftp.br.debian.org/debian/pool/main/m/megatools/megatools_1.9.98-1_amd64.deb
+
 dpkg -i megatools_1.9.98-1_amd64.deb
+
 cd 
+
 cp /.megarc
+
 nano .megarc
+
 #----------------------------------
+
 #[Login]
 #Username = 
 #Password = 
 #-----------------------------------
 
+
 #-----------------------HOW TO USE -------------
+
 #megareg –  Registrar-se e verificar uma conta nova mega.
 #megadf –  Mostre seu espaço de armazenamento em nuvem uso / quota.
 #megals –  Listar todos os arquivos remotos.
