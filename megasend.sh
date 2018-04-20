@@ -1,6 +1,6 @@
 ############################
 cd /var/
-tar -zcvf bkp-`date +%d-%m-%Y--%H-%M`.tar.gz www/ 
+tar -zcvf bkp-`date +%Y-%m-%d`.tar.gz www/ 
 megaput *.tar.gz
 rm *.tar.gz
 
